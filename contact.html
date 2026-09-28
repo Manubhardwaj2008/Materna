@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emergency Support & Contact — Materna 24x7 Maternal Help Desk</title>
+  <meta name="description"
+    content="Reach Materna's 24x7 maternal emergency desk, clinical advisory team, and Government DBT scheme counselors across India.">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            materna: {
+              50: '#FAF5FF',
+              100: '#F3E8FF',
+              200: '#E9D5FF',
+              300: '#D8B4FE',
+              400: '#C084FC',
+              500: '#A855F7',
+              600: '#9333EA',
+              700: '#7E22CE',
+              800: '#6B21A8',
+              900: '#581C87',
+              950: '#3B0764',
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    .pulse-glow {
+      box-shadow: 0 0 0 0 rgba(225, 29, 72, 0.7);
+      animation: pulse-ring 2s infinite cubic-bezier(0.66, 0, 1, 1);
+    }
+
+    @keyframes pulse-ring {
+      to {
+        box-shadow: 0 0 0 14px rgba(225, 29, 72, 0);
+      }
+    }
+  </style>
+</head>
+
+<body
+  class="bg-slate-50 text-slate-800 antialiased selection:bg-purple-200 selection:text-purple-900 flex flex-col min-h-screen">
+
+  <!-- ================= TOP COMPLIANCE & HELPLINE RIBBON ================= -->
+  <div
+    class="bg-purple-950 text-purple-100 text-xs py-2 px-4 sm:px-8 flex flex-wrap justify-between items-center border-b border-purple-900/80 font-medium">
+    <div class="flex items-center space-x-3 sm:space-x-4">
+      <span class="flex items-center gap-1.5">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="font-semibold text-purple-200">ABHA & MoHFW Aligned Network</span>
+      </span>
+      <span class="hidden md:inline text-purple-400/60">•</span>
+      <span class="hidden md:flex items-center gap-1 text-purple-300">
+        <i class="fas fa-id-card text-purple-400"></i> ABHA ID: <strong
+          class="text-white ml-1">91-8874-2900-4102</strong>
+      </span>
+      <span class="hidden lg:inline text-purple-400/60">•</span>
+      <span class="hidden lg:inline text-purple-300">UNICEF Maternal Standards</span>
+    </div>
+    <div class="flex items-center space-x-4 mt-1 sm:mt-0">
+      <span class="text-purple-200 flex items-center gap-1.5">
+        <i class="fas fa-headset text-purple-400"></i> 24x7 Maternal Emergency:
+        <a href="tel:+917060511057" class="text-white font-bold hover:text-purple-300 transition-colors">+91
+          7060-51-1057</a>
+      </span>
+      <span class="hidden sm:inline text-purple-400/60">•</span>
+      <a href="mailto:help@Materna.com" class="hidden sm:inline text-purple-300 hover:text-white transition-colors">
+        <i class="far fa-envelope mr-1 text-purple-400"></i> help@Materna.com
+      </a>
+    </div>
+  </div>
+
+  <!-- ================= MAIN HEADER / NAVBAR ================= -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-purple-100 shadow-sm transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+
+        <!-- Brand Logo -->
+        <a href="index.html" class="flex items-center gap-3 group">
+          <div
+            class="w-11 h-11 rounded-2xl bg-gradient-to-tr from-purple-800 via-purple-600 to-indigo-500 flex items-center justify-center text-white shadow-md shadow-purple-500/20 group-hover:scale-105 transition-transform">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+            </svg>
+          </div>
+          <div>
+            <div class="flex items-center gap-1.5">
+              <span
+                class="text-2xl font-black bg-gradient-to-r from-purple-900 via-purple-800 to-indigo-950 bg-clip-text text-transparent tracking-tight">Materna</span>
+              <span class="w-1.5 h-1.5 rounded-full bg-purple-600"></span>
+            </div>
+            <span class="text-[10px] tracking-widest uppercase font-extrabold text-purple-700/90 block -mt-1">MATERNAL
+              PROTECTION</span>
+          </div>
+        </a>
+
+        <!-- Desktop Nav Links -->
+        <nav class="hidden xl:flex items-center space-x-1 text-sm font-semibold text-slate-700">
+          <a href="index.html#vitals"
+            class="px-3 py-2 rounded-lg text-slate-700 hover:text-purple-700 hover:bg-purple-50/90 transition-colors">Risk
+            Assessment & Vitals</a>
+          <a href="index.html#trends"
+            class="px-3 py-2 rounded-lg text-slate-700 hover:text-purple-700 hover:bg-purple-50/90 transition-colors">Trend
+            Monitoring</a>
+          <a href="index.html#hospital-blood"
+            class="px-3 py-2 rounded-lg text-slate-700 hover:text-purple-700 hover:bg-purple-50/90 transition-colors">Hospital
+            & Blood Readiness</a>
+          <a href="index.html#schemes-vault"
+            class="px-3 py-2 rounded-lg text-slate-700 hover:text-purple-700 hover:bg-purple-50/90 transition-colors">Document
+            Vault & Expenses</a>
+          <a href="about.html"
+            class="px-3 py-2 rounded-lg text-slate-700 hover:text-purple-700 hover:bg-purple-50/90 transition-colors">About</a>
+          <a href="pricing.html"
+            class="px-3 py-2 rounded-lg text-slate-700 hover:text-purple-700 hover:bg-purple-50/90 transition-colors">Plans
+            (₹)</a>
+          <a href="contact.html"
+            class="px-3 py-2 rounded-lg text-purple-900 hover:text-purple-700 hover:bg-purple-50/90 transition-colors">Emergency
+            Support</a>
+        </nav>
+
+        <!-- Right Quick Action Items -->
+        <div class="hidden sm:flex items-center space-x-3">
+          <!-- 256-bit Encrypted Badge -->
+          <div
+            class="hidden lg:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-200/80 text-emerald-800 text-xs font-semibold">
+            <svg class="w-3.5 h-3.5 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            </svg>
+            <span>256-bit Encrypted</span>
+          </div>
+
+          <!-- SOS Trigger Pill Button -->
+          <button onclick="openSosModal()"
+            class="pulse-glow relative flex items-center gap-2 px-4 py-2 rounded-full bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 transition-all shadow-sm active:scale-95 font-bold text-xs sm:text-sm">
+            <span class="flex h-2.5 w-2.5 relative">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-rose-600"></span>
+            </span>
+            <span class="font-black tracking-wide text-rose-600">SOS</span>
+            <span class="text-rose-400">|</span>
+            <span class="text-rose-800 font-semibold">Blood: A+</span>
+          </button>
+
+          <!-- User Profile Avatar Pill -->
+          <a href="index.html#vitals"
+            class="flex items-center gap-2 pl-2 pr-3 py-1.5 rounded-full bg-purple-50 border border-purple-200/80 hover:bg-purple-100/80 transition-colors">
+            <div
+              class="w-7 h-7 rounded-full bg-purple-700 text-white flex items-center justify-center text-xs font-bold ring-2 ring-purple-300">
+              AS
+            </div>
+            <span class="hidden md:inline text-xs font-bold text-purple-950">Ananya (W28)</span>
+          </a>
+        </div>
+
+        <!-- Mobile Nav Toggle -->
+        <div class="flex xl:hidden items-center space-x-2">
+          <button onclick="openSosModal()"
+            class="sm:hidden flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-rose-600 text-white font-bold text-xs shadow-md">
+            <span class="w-2 h-2 rounded-full bg-white animate-pulse"></span>
+            SOS A+
+          </button>
+          <button onclick="toggleMobileNav()"
+            class="p-2.5 rounded-xl text-purple-900 hover:bg-purple-100 focus:outline-none"
+            aria-label="Toggle Navigation">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Navigation -->
+    <div id="mobile-nav"
+      class="hidden xl:hidden border-t border-purple-100 bg-white/98 px-4 pt-3 pb-6 space-y-2 shadow-xl">
+      <div class="p-3 bg-purple-50 rounded-xl mb-3 flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-full bg-purple-700 text-white flex items-center justify-center font-bold text-xs">
+            AS</div>
+          <div>
+            <div class="text-xs font-bold text-purple-950">Ananya Sharma (Week 28)</div>
+            <div class="text-[11px] text-purple-600">ABHA: 91-8874-2900-4102</div>
+          </div>
+        </div>
+        <span class="px-2 py-1 bg-emerald-100 text-emerald-800 text-[10px] font-bold rounded-md">Vitals Stable</span>
+      </div>
+      <a href="index.html#vitals"
+        class="block px-3 py-2.5 rounded-lg text-sm font-semibold text-slate-800 hover:bg-purple-50 hover:text-purple-700">Risk
+        Assessment & Vitals</a>
+      <a href="index.html#trends"
+        class="block px-3 py-2.5 rounded-lg text-sm font-semibold text-slate-800 hover:bg-purple-50 hover:text-purple-700">Trend
+        Monitoring</a>
+      <a href="index.html#hospital-blood"
+        class="block px-3 py-2.5 rounded-lg text-sm font-semibold text-slate-800 hover:bg-purple-50 hover:text-purple-700">Hospital
+        & Blood Readiness</a>
+      <a href="index.html#schemes-vault"
+        class="block px-3 py-2.5 rounded-lg text-sm font-semibold text-slate-800 hover:bg-purple-50 hover:text-purple-700">Document
+        Vault & Schemes</a>
+      <a href="about.html"
+        class="block px-3 py-2.5 rounded-lg text-sm font-semibold text-slate-800 hover:bg-purple-50 hover:text-purple-700">About
+        Materna</a>
+      <a href="pricing.html"
+        class="block px-3 py-2.5 rounded-lg text-sm font-semibold text-slate-800 hover:bg-purple-50 hover:text-purple-700">Plans
+        & Coverage (INR ₹)</a>
+      <a href="contact.html"
+        class="block px-3 py-2.5 rounded-lg text-sm font-semibold text-slate-800 hover:bg-purple-50 hover:text-purple-700">Emergency
+        Support & Contact</a>
+      <div class="pt-3 border-t border-purple-100 flex flex-col gap-2">
+        <button onclick="openSosModal()"
+          class="w-full py-3 bg-rose-600 hover:bg-rose-700 text-white rounded-xl font-bold text-sm shadow-md flex items-center justify-center gap-2">
+          <span class="w-2.5 h-2.5 rounded-full bg-white animate-pulse"></span>
+          TRIGGER MATERNAL SOS (Blood A+)
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= CONTACT HERO SECTION ================= -->
+  <section class="bg-gradient-to-b from-purple-100/60 via-purple-50/40 to-slate-50 py-16 border-b border-purple-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <span
+        class="text-xs font-extrabold uppercase tracking-widest text-purple-700 bg-purple-100 px-4 py-1.5 rounded-full border border-purple-200">24x7
+        Clinical Response & Help Desk</span>
+      <h1 class="text-3xl sm:text-5xl font-black text-slate-900 mt-4 tracking-tight">
+        We Are Here to <span class="text-purple-700">Support You</span>
+      </h1>
+      <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto mt-3">
+        Reach out to our maternal medical officers, scheme counselors, or hospital dispatch team anytime.
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= MAIN CONTACT GRID & WEB3FORMS ================= -->
+  <section class="py-16 bg-white border-b border-purple-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+
+        <!-- Left Column: Direct Contacts & Emergency Cards -->
+        <div class="lg:col-span-5 space-y-6">
+
+          <!-- Emergency Call Out Box -->
+          <div class="bg-rose-50 border-2 border-rose-300 rounded-3xl p-6 shadow-sm">
+            <div class="flex items-center gap-3 mb-3">
+              <div
+                class="w-12 h-12 rounded-2xl bg-rose-600 text-white flex items-center justify-center text-xl pulse-glow font-bold">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div>
+                <span class="text-[10px] font-black uppercase text-rose-700 bg-rose-100 px-2 py-0.5 rounded">Toll-Free
+                  24x7</span>
+                <h3 class="text-lg font-black text-rose-950">Maternal Emergency Line</h3>
+              </div>
+            </div>
+            <p class="text-xs text-slate-700 mb-4">
+              If you are experiencing contractions, severe abdominal pain, bleeding, or dizziness, call immediately:
+            </p>
+            <a href="tel:+917060511057"
+              class="block text-center py-3.5 bg-rose-600 hover:bg-rose-700 text-white rounded-2xl font-black text-base shadow-md transition-colors">
+              <i class="fas fa-phone mr-2"></i> +91 7060-51-1057
+            </a>
+          </div>
+
+          <!-- Direct Medical Desk Email -->
+          <div class="bg-purple-50/70 border border-purple-200 rounded-3xl p-6">
+            <div class="flex items-center gap-3 mb-2">
+              <div class="w-10 h-10 rounded-xl bg-purple-700 text-white flex items-center justify-center text-lg">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-purple-950">Email Support</h4>
+                <p class="text-xs text-slate-500">Fast response within 2 business hours</p>
+              </div>
+            </div>
+            <a href="mailto:help@Materna.com" class="text-sm font-bold text-purple-700 hover:underline block mt-2">
+              help@Materna.com
+            </a>
+          </div>
+
+          <!-- Headquarters / Physical Medical Center -->
+          <div class="bg-slate-50 border border-slate-200 rounded-3xl p-6">
+            <div class="flex items-center gap-3 mb-2">
+              <div class="w-10 h-10 rounded-xl bg-slate-800 text-white flex items-center justify-center text-lg">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-slate-900">Materna National Telemetry Center</h4>
+                <p class="text-xs text-slate-500">Government Health Tech Corridor</p>
+              </div>
+            </div>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Level 6, Bio-Health Tower, DLF Cyber City Phase 2, Sector 24, Gurugram, NCR, Haryana 122002, India.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Web3Forms Smart Form -->
+        <div class="lg:col-span-7">
+          <div class="bg-white rounded-3xl p-8 sm:p-10 border border-purple-200 shadow-xl">
+
+            <div class="mb-6">
+              <span class="text-xs font-bold uppercase text-purple-700 bg-purple-100 px-3 py-1 rounded-full">Encrypted
+                Transmission</span>
+              <h2 class="text-2xl font-black text-slate-900 mt-2">Send Us a Secure Message</h2>
+              <p class="text-xs text-slate-500 mt-1">Our clinical coordinators and scheme advisors will review and get
+                back to you promptly.</p>
+            </div>
+
+            <!-- SMART FORM WITH WEB3FORMS -->
+            <form action="https://api.web3forms.com/submit" method="POST"
+              class="space-y-4 text-xs font-semibold text-slate-700">
+
+              <!-- Web3Forms Access Key Hidden Input -->
+              <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+
+              <!-- Spam Botcheck Honeypot -->
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+              <!-- Optional Custom Redirect or Subject -->
+              <input type="hidden" name="subject" value="New Inquiry from Materna Maternal Website">
+              <input type="hidden" name="from_name" value="Materna Portal Patient Request">
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block mb-1 font-bold text-slate-800">Full Name *</label>
+                  <input type="text" name="name" required placeholder="e.g. Ananya Sharma"
+                    class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs focus:ring-2 focus:ring-purple-600 focus:outline-none">
+                </div>
+                <div>
+                  <label class="block mb-1 font-bold text-slate-800">Email Address *</label>
+                  <input type="email" name="email" required placeholder="ananya@example.com"
+                    class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs focus:ring-2 focus:ring-purple-600 focus:outline-none">
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block mb-1 font-bold text-slate-800">Phone Number *</label>
+                  <input type="tel" name="phone" required placeholder="+91 9811X XXXXX"
+                    class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs focus:ring-2 focus:ring-purple-600 focus:outline-none">
+                </div>
+                <div>
+                  <label class="block mb-1 font-bold text-slate-800">Pregnancy Week / Stage</label>
+                  <select name="pregnancy_stage"
+                    class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs focus:ring-2 focus:ring-purple-600 focus:outline-none">
+                    <option value="trimester_1">1st Trimester (Week 1 - 13)</option>
+                    <option value="trimester_2">2nd Trimester (Week 14 - 27)</option>
+                    <option value="trimester_3" selected>3rd Trimester (Week 28 - 40)</option>
+                    <option value="postpartum">New Mother / Postpartum Care</option>
+                    <option value="planning">Planning Pregnancy</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label class="block mb-1 font-bold text-slate-800">Query Category *</label>
+                <select name="category" required
+                  class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs focus:ring-2 focus:ring-purple-600 focus:outline-none">
+                  <option value="scheme_assistance">Government Scheme (PMMVY / JSY / PM-JAY) Direct Benefit Assistance
+                  </option>
+                  <option value="doctor_booking">OB-GYN Doctor Consultation or Bed Reservation</option>
+                  <option value="vitals_alert">Maternal Vitals & High-Risk Monitoring Support</option>
+                  <option value="insurance_tpa">Cashless Maternity Insurance Claim</option>
+                  <option value="general">General Feedback / Partnership</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block mb-1 font-bold text-slate-800">ABHA Health ID (Optional)</label>
+                <input type="text" name="abha_id" placeholder="e.g. 91-8874-2900-4102"
+                  class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs focus:ring-2 focus:ring-purple-600 focus:outline-none">
+              </div>
+
+              <div>
+                <label class="block mb-1 font-bold text-slate-800">Your Message / Medical Details *</label>
+                <textarea name="message" rows="4" required
+                  placeholder="Describe your question, symptoms, or scheme inquiry in detail..."
+                  class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs focus:ring-2 focus:ring-purple-600 focus:outline-none"></textarea>
+              </div>
+
+              <button type="submit"
+                class="w-full py-4 bg-purple-700 hover:bg-purple-800 text-white rounded-xl font-bold text-sm shadow-md transition-transform active:scale-95 flex items-center justify-center gap-2">
+                <i class="fas fa-paper-plane"></i> Submit Secure Request
+              </button>
+
+              <div class="text-center text-[11px] text-slate-500 pt-1 flex items-center justify-center gap-1.5">
+                <i class="fas fa-shield-alt text-emerald-600"></i> Protected by Web3Forms & 256-bit SSL encryption.
+              </div>
+
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= EMERGENCY SOS INTERACTIVE MODAL ================= -->
+  <div id="sosModal" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md hidden items-center justify-center p-4">
+    <div
+      class="bg-white rounded-3xl max-w-2xl w-full p-6 sm:p-8 border-4 border-rose-500 shadow-2xl relative animate-in fade-in zoom-in-95 duration-200">
+      <button onclick="closeSosModal()"
+        class="absolute top-5 right-5 text-slate-400 hover:text-slate-800 text-xl font-bold p-2">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <div class="flex items-center gap-4 mb-6">
+        <div
+          class="w-14 h-14 rounded-2xl bg-rose-600 text-white flex items-center justify-center text-2xl pulse-glow font-black">
+          <i class="fas fa-ambulance"></i>
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="bg-rose-100 text-rose-800 text-xs font-black uppercase px-2.5 py-0.5 rounded-full">HIGH
+              PRIORITY PROTOCOL</span>
+            <span class="text-xs text-slate-500 font-semibold" id="sos-live-time">11:50:22 AM</span>
+          </div>
+          <h2 class="text-xl sm:text-2xl font-black text-rose-950">Maternal Emergency SOS Protocol Active</h2>
+        </div>
+      </div>
+
+      <div class="bg-rose-50 border border-rose-200 rounded-2xl p-4 mb-6">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
+          <span class="text-xs font-bold uppercase text-rose-800 flex items-center gap-1.5">
+            <span class="w-2.5 h-2.5 rounded-full bg-rose-600 animate-ping"></span>
+            Live GPS Pin Broadcasted
+          </span>
+          <span
+            class="text-xs font-mono font-bold text-rose-950 bg-white px-2.5 py-1 rounded-md border border-rose-200">
+            Lat: 28.4595° N, Long: 77.0266° E
+          </span>
+        </div>
+        <p class="text-xs text-slate-700">
+          📍 Approximate location: <strong>DLF Phase 4, Gurugram, Haryana</strong>. Nearest emergency response dispatch
+          center alerted.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <a href="tel:+917060511057"
+          class="py-3.5 bg-rose-600 hover:bg-rose-700 text-white rounded-xl font-black text-sm text-center shadow-lg flex items-center justify-center gap-2">
+          <i class="fas fa-phone-alt animate-bounce"></i> Call Materna Emergency (+91 7060-51-1057)
+        </a>
+        <a href="tel:108"
+          class="py-3.5 bg-slate-900 hover:bg-slate-800 text-white rounded-xl font-bold text-sm text-center shadow flex items-center justify-center gap-2">
+          <i class="fas fa-ambulance"></i> Dial National Govt 108
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= FLOATING MATERNA AI SAATHI CHATBOT ================= -->
+  <div class="fixed bottom-6 right-6 z-40">
+    <button onclick="toggleChatbot()" id="chatbot-toggle-btn"
+      class="w-14 h-14 rounded-full bg-gradient-to-r from-purple-700 via-purple-600 to-indigo-600 text-white flex items-center justify-center text-2xl shadow-2xl hover:scale-110 active:scale-95 transition-all relative ring-4 ring-purple-200">
+      <i class="fas fa-comment-dots"></i>
+      <span
+        class="absolute -top-1 -right-1 w-4 h-4 bg-emerald-500 rounded-full border-2 border-white animate-pulse"></span>
+    </button>
+
+    <div id="chatbot-window"
+      class="hidden absolute bottom-16 right-0 w-[92vw] sm:w-96 bg-white rounded-3xl border border-purple-200 shadow-2xl overflow-hidden flex flex-col h-[520px] transition-all">
+      <div
+        class="bg-gradient-to-r from-purple-900 via-purple-800 to-indigo-900 p-4 text-white flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div
+            class="w-9 h-9 rounded-xl bg-purple-600 text-white flex items-center justify-center font-bold text-sm shadow-inner">
+            🌸
+          </div>
+          <div>
+            <h3 class="text-sm font-bold flex items-center gap-1.5">Materna AI Saathi <span
+                class="w-2 h-2 rounded-full bg-emerald-400"></span></h3>
+            <p class="text-[11px] text-purple-200">Empathetic Maternal & Scheme Companion</p>
+          </div>
+        </div>
+        <button onclick="toggleChatbot()" class="text-purple-300 hover:text-white text-lg p-1">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div id="chat-messages" class="flex-1 p-4 overflow-y-auto space-y-3 bg-slate-50 text-xs">
+        <div class="flex items-start gap-2">
+          <div class="w-7 h-7 rounded-full bg-purple-700 text-white flex items-center justify-center text-xs shrink-0">
+            🌸</div>
+          <div
+            class="bg-white p-3.5 rounded-2xl rounded-tl-none border border-purple-100 shadow-sm max-w-[85%] text-slate-800 space-y-2">
+            <p>Namaste! Need assistance with your emergency inquiry or filling out the contact form? I can help you
+              immediately!</p>
+          </div>
+        </div>
+      </div>
+
+      <form onsubmit="handleUserMessage(event)" class="p-3 bg-white border-t border-purple-100 flex items-center gap-2">
+        <input type="text" id="chat-user-input" placeholder="Ask Saathi in English or Hindi..."
+          class="flex-1 bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs focus:ring-2 focus:ring-purple-600 focus:outline-none">
+        <button type="submit"
+          class="w-9 h-9 rounded-xl bg-purple-700 hover:bg-purple-800 text-white flex items-center justify-center text-sm shadow">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ================= GLOBAL FOOTER ================= -->
+  <footer class="bg-purple-950 text-white pt-16 pb-12 border-t border-purple-900 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
+
+        <!-- Col 1: Brand & Emergency -->
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center gap-3">
+            <div
+              class="w-10 h-10 rounded-2xl bg-purple-600 text-white flex items-center justify-center font-bold text-lg">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div>
+              <span class="text-2xl font-black tracking-tight">Materna</span>
+              <span class="text-[10px] tracking-widest uppercase font-bold text-purple-400 block -mt-1">MATERNAL
+                PROTECTION</span>
+            </div>
+          </div>
+          <p class="text-xs text-purple-200/90 leading-relaxed max-w-sm">
+            Empowering every Indian mother with predictive maternal telemetry, instant blood and emergency hospital
+            dispatch, and seamless Direct Benefit Transfer (DBT) under Government Schemes.
+          </p>
+          <div class="pt-2 space-y-2 text-xs text-purple-300">
+            <div class="flex items-center gap-2">
+              <i class="fas fa-phone-alt text-rose-400"></i> Emergency Helpline: <a href="tel:+917060511057"
+                class="text-white font-bold hover:underline">+91 1800-65-9555</a>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fas fa-envelope text-purple-400"></i> Medical Desk: <a href="mailto:help@Materna.com"
+                class="text-white font-bold hover:underline">help@Materna.com</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Col 2: Navigation Links -->
+        <div>
+          <h4 class="text-xs font-black tracking-wider uppercase text-purple-300 mb-4">Core Modules</h4>
+          <ul class="space-y-2.5 text-xs text-purple-200">
+            <li><a href="index.html#vitals" class="hover:text-white transition-colors">Risk Assessment & Vitals</a></li>
+            <li><a href="index.html#trends" class="hover:text-white transition-colors">Trend Monitoring</a></li>
+            <li><a href="index.html#hospital-blood" class="hover:text-white transition-colors">Hospital & Blood
+                Readiness</a></li>
+            <li><a href="index.html#schemes-vault" class="hover:text-white transition-colors">Document Vault &
+                Schemes</a></li>
+            <li><a href="about.html" class="hover:text-white transition-colors">About Materna Mission</a></li>
+            <li><a href="pricing.html" class="hover:text-white transition-colors">Plans & Coverage (INR ₹)</a></li>
+            <li><a href="contact.html" class="hover:text-white transition-colors">Emergency Support & Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Indian Government Schemes -->
+        <div>
+          <h4 class="text-xs font-black tracking-wider uppercase text-purple-300 mb-4">Govt Schemes & DBT</h4>
+          <ul class="space-y-2.5 text-xs text-purple-200">
+            <li><a href="index.html#schemes-vault" class="hover:text-white transition-colors">PMMVY (₹ 5,000 Grant)</a>
+            </li>
+            <li><a href="index.html#schemes-vault" class="hover:text-white transition-colors">Janani Suraksha Yojana
+                (JSY)</a></li>
+            <li><a href="index.html#schemes-vault" class="hover:text-white transition-colors">PMSMA Free 9th Month
+                Checkup</a></li>
+            <li><a href="index.html#schemes-vault" class="hover:text-white transition-colors">Ayushman Bharat PM-JAY
+                (₹5L)</a></li>
+            <li><a href="index.html#schemes-vault" class="hover:text-white transition-colors">ABHA Health Locker
+                Sync</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Trust & Accreditations -->
+        <div>
+          <h4 class="text-xs font-black tracking-wider uppercase text-purple-300 mb-4">Security & Standards</h4>
+          <div class="space-y-3 text-xs text-purple-200">
+            <div class="p-3 bg-purple-900/60 rounded-xl border border-purple-800">
+              <div class="font-bold text-white flex items-center gap-1.5">
+                <i class="fas fa-lock text-emerald-400"></i> 256-Bit HIPAA/ABHA
+              </div>
+              <p class="text-[11px] text-purple-300 mt-0.5">End-to-end encrypted maternal health records.</p>
+            </div>
+            <div class="p-3 bg-purple-900/60 rounded-xl border border-purple-800">
+              <div class="font-bold text-white flex items-center gap-1.5">
+                <i class="fas fa-map-marker-alt text-rose-400"></i> Real-Time SOS Ready
+              </div>
+              <p class="text-[11px] text-purple-300 mt-0.5">Live GPS coordinate telemetry for ambulance dispatch.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Disclaimer & Copyright -->
+      <div
+        class="pt-8 border-t border-purple-900/80 text-center md:flex md:justify-between md:items-center text-xs text-purple-400">
+        <p>© 2026 Materna Protection System. All Rights Reserved. Built with medical empathy for Indian mothers.</p>
+        <div class="mt-4 md:mt-0 flex justify-center space-x-6">
+          <a href="about.html" class="hover:text-purple-200">Privacy Policy</a>
+          <a href="about.html" class="hover:text-purple-200">Clinical Terms</a>
+          <a href="contact.html" class="hover:text-purple-200">Emergency Support Desk</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ================= FLOATING MATERNA AI SAATHI CHATBOT ================= -->
+  <div class="fixed bottom-6 right-6 z-40">
+    <!-- Chatbot Toggle Floating Button -->
+    <button onclick="toggleChatbot()" id="chatbot-toggle-btn"
+      class="w-14 h-14 rounded-full bg-gradient-to-r from-purple-700 via-purple-600 to-indigo-600 text-white flex items-center justify-center text-2xl shadow-2xl hover:scale-110 active:scale-95 transition-all relative ring-4 ring-purple-200"
+      title="Open Materna Saathi AI Chatbot">
+      <i class="fas fa-comment-dots"></i>
+      <span
+        class="absolute -top-1 -right-1 w-4 h-4 bg-emerald-500 rounded-full border-2 border-white animate-pulse"></span>
+    </button>
+
+    <!-- Chatbot Window Drawer -->
+    <div id="chatbot-window"
+      class="hidden absolute bottom-16 right-0 w-[92vw] sm:w-[410px] bg-white rounded-3xl border border-purple-200 shadow-2xl overflow-hidden flex flex-col h-[540px] max-h-[85vh] transition-all z-50">
+      <!-- Chat Header -->
+      <div
+        class="bg-gradient-to-r from-purple-900 via-purple-800 to-indigo-900 p-4 text-white flex items-center justify-between border-b border-purple-700/50">
+        <div class="flex items-center gap-3">
+          <div
+            class="w-9 h-9 rounded-xl bg-purple-600 text-white flex items-center justify-center font-bold text-base shadow-inner">
+            🌸
+          </div>
+          <div>
+            <div class="flex items-center gap-1.5">
+              <h3 class="text-sm font-bold tracking-tight">Materna AI Saathi</h3>
+              <span id="gemini-status-badge"></span>
+            </div>
+            <p class="text-[10px] text-purple-200">24/7 Pregnancy, Baby & Scheme AI Companion</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-1.5">
+          <button onclick="openApiKeyModal()"
+            class="p-1.5 rounded-lg bg-purple-800/80 hover:bg-purple-700 text-purple-200 hover:text-white text-xs transition-colors"
+            title="Configure Free Google Gemini API Key">
+            <i class="fas fa-key"></i>
+          </button>
+          <button onclick="clearChatHistory()"
+            class="p-1.5 rounded-lg bg-purple-800/80 hover:bg-purple-700 text-purple-200 hover:text-white text-xs transition-colors"
+            title="Clear Chat History">
+            <i class="fas fa-trash-alt"></i>
+          </button>
+          <button onclick="toggleChatbot()"
+            class="p-1.5 rounded-lg hover:bg-purple-800 text-purple-200 hover:text-white text-sm transition-colors">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Chat Messages Container -->
+      <div id="chat-messages" class="flex-1 p-4 overflow-y-auto space-y-3 bg-slate-50 text-xs">
+        <div class="flex items-start gap-2">
+          <div
+            class="w-7 h-7 rounded-full bg-purple-700 text-white flex items-center justify-center text-xs shrink-0 font-bold shadow">
+            🌸</div>
+          <div
+            class="bg-white p-3.5 rounded-2xl rounded-tl-none border border-purple-100 shadow-sm max-w-[88%] text-slate-800 space-y-2">
+            <p>Namaste! I am your <strong>Materna AI Saathi</strong>, powered by Google Gemini intelligence for maternal
+              & pediatric health.</p>
+            <p class="text-[11px] text-slate-600">Ask me anything about:</p>
+            <ul class="list-disc list-inside text-[11px] text-slate-600 space-y-0.5">
+              <li>Week-by-week pregnancy milestones & ultrasound</li>
+              <li>Baby kick counting & movement advice</li>
+              <li>Indian Govt Schemes (PMMVY ₹ 5,000, JSY ₹ 1,400–6,000, PM-JAY)</li>
+              <li>Trimester nutrition (Iron, Calcium, Palak, Ragi) & safe remedies</li>
+              <li>Newborn breastfeeding, latching & sleep tips</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Suggested Chips -->
+      <div
+        class="p-2 bg-purple-50/80 border-t border-purple-100 flex gap-1.5 overflow-x-auto text-[11px] font-medium scrollbar-thin">
+        <button onclick="sendQuickPrompt('Am I eligible for PMMVY ₹ 5,000 scheme?')"
+          class="whitespace-nowrap px-2.5 py-1 bg-white hover:bg-purple-100 text-purple-900 rounded-full border border-purple-200 transition-colors shadow-xs">
+          💰 PMMVY ₹ 5k Scheme
+        </button>
+        <button onclick="sendQuickPrompt('What should I eat in Week 28 for fetal growth?')"
+          class="whitespace-nowrap px-2.5 py-1 bg-white hover:bg-purple-100 text-purple-900 rounded-full border border-purple-200 transition-colors shadow-xs">
+          🥗 Week 28 Diet Plan
+        </button>
+        <button onclick="sendQuickPrompt('How do I count baby kicks in 3rd trimester?')"
+          class="whitespace-nowrap px-2.5 py-1 bg-white hover:bg-purple-100 text-purple-900 rounded-full border border-purple-200 transition-colors shadow-xs">
+          👶 Baby Kick Count
+        </button>
+        <button onclick="sendQuickPrompt('What are critical danger signs in pregnancy?')"
+          class="whitespace-nowrap px-2.5 py-1 bg-white hover:bg-rose-100 text-rose-800 rounded-full border border-rose-200 transition-colors shadow-xs">
+          🚨 Danger Signs
+        </button>
+      </div>
+
+      <!-- Chat Input Form -->
+      <form onsubmit="handleUserMessage(event)"
+        class="p-2.5 bg-white border-t border-purple-100 flex items-center gap-2">
+        <button type="button" onclick="toggleVoiceInput()" id="chat-voice-btn"
+          class="w-8 h-8 rounded-xl bg-purple-50 hover:bg-purple-100 text-purple-700 flex items-center justify-center text-xs transition-colors shrink-0"
+          title="Voice Input (Speech-to-Text)">
+          <i class="fas fa-microphone"></i>
+        </button>
+        <input type="text" id="chat-user-input" placeholder="Ask Saathi in English, Hindi..."
+          class="flex-1 bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs focus:ring-2 focus:ring-purple-600 focus:outline-none transition-all">
+        <button type="submit"
+          class="w-8 h-8 rounded-xl bg-purple-700 hover:bg-purple-800 text-white flex items-center justify-center text-xs shadow transition-colors shrink-0">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ================= GEMINI API KEY CONFIGURATION MODAL ================= -->
+  <div id="geminiApiKeyModal"
+    class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-md w-full p-6 shadow-2xl border border-purple-100 space-y-4">
+      <div class="flex items-center justify-between border-b border-purple-100 pb-3">
+        <div class="flex items-center gap-2">
+          <div
+            class="w-8 h-8 rounded-xl bg-gradient-to-tr from-purple-700 to-indigo-600 text-white flex items-center justify-center text-sm shadow">
+            <i class="fas fa-key"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-slate-900">Connect Google Gemini API</h3>
+            <p class="text-[11px] text-purple-700 font-semibold">100% Free • Works on Any Device</p>
+          </div>
+        </div>
+        <button onclick="closeApiKeyModal()" class="text-slate-400 hover:text-slate-700">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div class="space-y-3 text-xs text-slate-600">
+        <p>
+          Connect your free <strong>Google Gemini API Key</strong> to unlock unlimited live AI consultation for
+          pregnancy, fetal telemetry, newborn care, and Indian government schemes.
+        </p>
+
+        <div class="p-3 bg-purple-50 rounded-xl border border-purple-100 space-y-2">
+          <div class="font-bold text-purple-900 flex items-center justify-between">
+            <span>How to get a FREE key in 10 seconds:</span>
+            <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer"
+              class="text-purple-700 underline hover:text-purple-900 font-bold">
+              Open Google AI Studio ↗
+            </a>
+          </div>
+          <ol class="list-decimal list-inside space-y-1 text-[11px] text-purple-800">
+            <li>Click the link above to open Google AI Studio (free).</li>
+            <li>Click <strong>"Create API key"</strong>.</li>
+            <li>Paste your key below and click <strong>Save & Connect</strong>.</li>
+          </ol>
+        </div>
+
+        <div>
+          <label class="block font-bold text-slate-800 mb-1">Your Gemini API Key (saved securely in your
+            browser):</label>
+          <input type="password" id="gemini-api-key-input" placeholder="AIzaSy..."
+            class="w-full bg-slate-50 border border-slate-300 rounded-xl p-3 text-xs font-mono focus:ring-2 focus:ring-purple-600 focus:outline-none">
+        </div>
+
+        <div id="api-key-test-result" class="min-h-[20px]"></div>
+      </div>
+
+      <div class="flex items-center justify-between pt-2 border-t border-slate-100">
+        <button type="button" onclick="testGeminiApiKey()"
+          class="px-3 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-bold transition-colors">
+          <i class="fas fa-bolt mr-1"></i> Test Key
+        </button>
+        <div class="flex gap-2">
+          <button type="button" onclick="closeApiKeyModal()"
+            class="px-3 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-semibold transition-colors">
+            Cancel
+          </button>
+          <button type="button" onclick="saveApiKeyFromModal()"
+            class="px-4 py-2 bg-purple-700 hover:bg-purple-800 text-white rounded-xl text-xs font-bold shadow transition-colors">
+            Save & Connect
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    function toggleMobileNav() {
+      document.getElementById('mobile-nav').classList.toggle('hidden');
+    }
+    function openSosModal() {
+      document.getElementById('sosModal').classList.remove('hidden');
+      document.getElementById('sosModal').classList.add('flex');
+      document.getElementById('sos-live-time').innerText = new Date().toLocaleTimeString();
+    }
+    function closeSosModal() {
+      document.getElementById('sosModal').classList.add('hidden');
+      document.getElementById('sosModal').classList.remove('flex');
+    }
+  </script>
+  <!-- Universal Gemini AI Saathi Chatbot Engine -->
+  <script src="chatbot.js"></script>
+</body>
+
+</html>

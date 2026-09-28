@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container": "#e7eeff", "tertiary-fixed-dim": "#68dba9", "primary-container": "#5b21b6", "on-tertiary-container": "#58cd9b", "on-primary-container": "#c7aaff", "on-primary": "#ffffff", "primary-fixed": "#ebddff", "on-tertiary-fixed-variant": "#005137", "on-secondary": "#ffffff", "tertiary-container": "#005439", "on-secondary-fixed-variant": "#5a00c6", "primary": "#420093", "secondary-fixed": "#eaddff", "tertiary": "#003b27", "outline-variant": "#ccc3d6", "inverse-primary": "#d3bbff", "tertiary-fixed": "#85f8c4", "on-surface-variant": "#4a4453", "on-tertiary": "#ffffff", "secondary": "#712ae2", "secondary-container": "#8a4cfc", "on-error-container": "#93000a", "inverse-on-surface": "#ecf1ff", "error-container": "#ffdad6", "on-surface": "#111c2d", "surface-container-low": "#f0f3ff", "secondary-fixed-dim": "#d2bbff", "surface": "#f9f9ff", "on-background": "#111c2d", "surface-container-high": "#dee8ff", "primary-fixed-dim": "#d3bbff", "background": "#f9f9ff", "on-primary-fixed": "#250059", "surface-container-lowest": "#ffffff", "surface-tint": "#713dcc", "on-secondary-container": "#fffbff", "on-secondary-fixed": "#25005a", "on-tertiary-fixed": "#002114", "surface-container-highest": "#d8e3fb", "outline": "#7b7485", "error": "#ba1a1a", "on-primary-fixed-variant": "#581db3", "on-error": "#ffffff", "inverse-surface": "#263143", "surface-bright": "#f9f9ff", "surface-dim": "#cfdaf2", "surface-variant": "#d8e3fb" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin": "2rem", "space-xs": "0.25rem", "gutter-mobile": "1rem", "space-sm": "0.5rem", "space-lg": "1.5rem", "space-md": "1rem", "gutter": "1.5rem", "margin-mobile": "1rem", "space-xl": "2rem" }, "fontFamily": { "body-sm": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"] }, "fontSize": { "body-sm": ["0.875rem", { "lineHeight": "1.375rem", "letterSpacing": "0", "fontWeight": "400" }], "display-lg": ["3rem", { "lineHeight": "3.75rem", "letterSpacing": "-0.025em", "fontWeight": "700" }], "headline-sm": ["1.25rem", { "lineHeight": "1.75rem", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-md": ["0.75rem", { "lineHeight": "1rem", "letterSpacing": "0.02em", "fontWeight": "600" }], "label-sm": ["0.6875rem", { "lineHeight": "0.875rem", "letterSpacing": "0.04em", "fontWeight": "700" }], "label-lg": ["0.875rem", { "lineHeight": "1.25rem", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-lg": ["2rem", { "lineHeight": "2.5rem", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["1.5rem", { "lineHeight": "2rem", "letterSpacing": "-0.015em", "fontWeight": "600" }], "body-md": ["1rem", { "lineHeight": "1.5rem", "letterSpacing": "0", "fontWeight": "400" }], "headline-lg-mobile": ["1.625rem", { "lineHeight": "2.125rem", "letterSpacing": "-0.015em", "fontWeight": "700" }], "body-lg": ["1.125rem", { "lineHeight": "1.75rem", "letterSpacing": "0", "fontWeight": "400" }] } } } }</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(76,29,149,0.04)]"><div class="h-20 max-w-7xl mx-auto px-margin-mobile lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md shrink-0"><img alt="Materna Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Usd6JT6NGBFbLoYEyRuEt5qn9s57qi1BlDR9SRKgWX9Y_fIsNKb-XlpM8OdPT5TqK6qdPhD5S_dkELYxDL_88YCMCyH7CbLYE1_IIZEsrAzfY47XWt3RqwGo7r1Vhyzt4uq2a9rmMUg9lR-qfNsSGz-68f2qMteNg3C-6WOxa2SPvhvriJInbyV4aby_wmr_PbhG1ZMX1Ghd8jGWhXRhiwUA7r1AqjRRRq7-GWiSa3-J5e_0M5wxrZ5Q"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Materna</span><span class="font-label-sm text-label-sm text-on-surface-variant tracking-wider uppercase">Maternal Protection</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary font-label-lg rounded-lg"><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors rounded-lg" data-path="risk-assessment-vitals" href="#">Risk Assessment &amp; Vitals</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors rounded-lg" data-path="trend-monitoring" href="#">Trend Monitoring</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors rounded-lg" data-path="hospital-blood-readiness" href="#">Hospital &amp; Blood Readiness</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors rounded-lg" data-path="document-vault-expenses" href="#">Document Vault &amp; Expenses</a><a class="px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors rounded-lg" data-path="emergency-support" href="#">Emergency Support</a></nav><div class="flex items-center gap-space-sm shrink-0"><div class="hidden md:flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-low text-tertiary-container font-label-md text-label-md"><span class="material-symbols-outlined text-tertiary-container text-base">verified_user</span><span>256-bit Encrypted</span></div><div class="flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-error-container text-error font-label-md text-label-md"><span class="material-symbols-outlined text-error text-base">sos</span><span class="font-bold">SOS</span><span class="w-1 h-3 bg-outline-variant rounded-full mx-space-xs"></span><span class="text-on-surface-variant font-label-sm text-label-sm">Blood: A+</span></div><div class="pl-space-xs"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAK7WXvurzOCVVX26kPdwzDb36Rl2mcSuLSA6R1M7hCoU91wEl6lDSTv2Vk-EYlf8X1CztqhUXUDL1wg7ttEE93kD0X-p4A3onW91ulPhbBkPLs3pDGRXYDZ-_vpGivZYkBgrOjL_wu1cCMKJO6ZFV5yzwyOkSQb5o6x6p-tMOFJ3M58KkSo7lQ17KONq_m8L1IKYRXgbu5O38kQIgiYSX4YOLQ8_ZrvJ6diwk5UNxzF9JWZtrfcXbg"/></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<!-- Sub-Header / Assurance Strip -->
+<section class="w-full bg-surface-container-low py-space-sm">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin flex flex-wrap items-center justify-between gap-space-xs text-on-surface-variant font-label-md text-label-md">
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="flex items-center gap-1 text-primary font-semibold">
+<span class="material-symbols-outlined text-sm">lock</span>
+          Tier 4 Cryptographic Storage
+        </span>
+<span class="text-outline-variant">•</span>
+<span class="flex items-center gap-1 text-tertiary-container font-semibold">
+<span class="material-symbols-outlined text-sm">health_and_safety</span>
+          ABHA / ABDM &amp; HIPAA Aligned
+        </span>
+<span class="text-outline-variant">•</span>
+<span>Zero-Knowledge Client-Side Encryption</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="inline-flex items-center gap-1 text-label-sm font-label-sm px-space-sm py-0.5 rounded-full bg-surface-container-lowest shadow-sm text-primary">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-container animate-pulse"></span>
+          ABHA ID: 91-8274-1029-4412
+        </span>
+<span class="text-on-surface-variant font-label-sm">AYUSH-M4 Certified</span>
+</div>
+</div>
+</section>
+<!-- Page Headline & High-Impact Action Bar -->
+<section class="w-full py-space-lg">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin flex flex-col gap-space-md">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-lg">
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<div class="flex items-center gap-space-xs text-primary font-label-md text-label-md uppercase tracking-wider">
+<span>Clinical Records</span>
+<span>/</span>
+<span>Indian Healthcare Vault</span>
+<span>/</span>
+<span class="text-on-surface-variant">FY 2024-25</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+            Encrypted Medical Vault, Maternity Expense &amp; Indian Govt Benefit Tracker
+          </h1>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Securely store diagnostic records, track pregnancy &amp; delivery out-of-pocket expenses in INR (₹), check real-time eligibility for Indian Central &amp; State maternity welfare schemes, and seamlessly orchestrate cashless insurance pre-authorizations.
+          </p>
+</div>
+<div class="flex flex-wrap items-center gap-space-sm shrink-0">
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-primary text-on-primary font-label-lg text-label-lg shadow-sm hover:bg-primary-container transition-all hover:shadow-md cursor-pointer" id="btn-upload-record">
+<span class="material-symbols-outlined text-lg">cloud_upload</span>
+            Upload Medical Record / Bill
+          </button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-surface-container-lowest text-primary font-label-lg text-label-lg shadow-sm hover:bg-surface-container-low transition-all cursor-pointer" id="btn-sync-abha">
+<span class="material-symbols-outlined text-lg">sync</span>
+            Sync ABHA / Ayushman
+          </button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-surface-container text-on-surface font-label-lg text-label-lg shadow-sm hover:bg-surface-container-high transition-all cursor-pointer" id="btn-export-pdf">
+<span class="material-symbols-outlined text-lg">download</span>
+            Export Financial Summary (PDF)
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Metric Summary Bento Strip (4 Grid) -->
+<section class="w-full pb-space-lg">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Metric 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between gap-space-md relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Total Incurred Outflow</span>
+<span class="font-headline-lg text-headline-lg text-on-surface font-bold">₹48,650</span>
+</div>
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">receipt_long</span>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span>Budgeted Cap: ₹1,20,000</span>
+<span class="font-semibold text-primary">40.5% Used</span>
+</div>
+<div class="w-full h-2 bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-primary rounded-full" style="width: 40.5%;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Trimesters 1 &amp; 2 recorded</span>
+</div>
+</div>
+<!-- Metric 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between gap-space-md relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Insurance &amp; TPA Claimable</span>
+<span class="font-headline-lg text-headline-lg text-primary font-bold">₹38,200</span>
+</div>
+<div class="w-10 h-10 rounded-lg bg-secondary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">verified</span>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<div class="inline-flex items-center gap-1.5 px-space-sm py-0.5 rounded-full bg-tertiary-fixed/30 text-tertiary font-label-sm text-label-sm w-max">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+            Cashless Pre-Auth Active
+          </div>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-1">Star Health Gold Women Policy covering Delivery &amp; Level II scan</p>
+</div>
+</div>
+<!-- Metric 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between gap-space-md relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Govt Benefits Eligible</span>
+<span class="font-headline-lg text-headline-lg text-tertiary-container font-bold">₹11,000</span>
+</div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-low flex items-center justify-center text-tertiary-container">
+<span class="material-symbols-outlined">account_balance</span>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-on-surface-variant">PMMVY + JSY DBT</span>
+<span class="text-tertiary-container font-bold">Phase 1 Credited</span>
+</div>
+<div class="w-full h-2 bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-tertiary-container rounded-full" style="width: 55%;"></div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">₹3,000 in Aadhaar-linked Bank A/C</span>
+</div>
+</div>
+<!-- Metric 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between gap-space-md relative overflow-hidden">
+<div class="flex items-start justify-between">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Net Personal Liability</span>
+<span class="font-headline-lg text-headline-lg text-on-surface font-bold">₹9,450</span>
+</div>
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">account_balance_wallet</span>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<div class="inline-flex items-center gap-1.5 text-label-sm font-label-sm text-tertiary font-semibold">
+<span class="material-symbols-outlined text-sm">check_circle</span>
+            Within Safe Buffer Limit
+          </div>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-1">₹50,000 Instant Zero-Cost Materna Clinical Credit standby available</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Content Grid (Left 7-span, Right 5-span) -->
+<section class="w-full pb-space-xl">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- LEFT COLUMN: Vault & Out-of-Pocket Expense Breakdown (7 cols) -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<!-- Document Vault Container -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-xs">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-lg">folder_shared</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Verified Clinical Vault &amp; Invoices</h2>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary-container bg-surface-container-low px-space-sm py-1 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">verified</span>
+              ABDM Linked • 14 Encrypted Assets
+            </span>
+</div>
+<!-- Vault Filter Tabs -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-1">
+<button class="px-space-md py-1.5 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm whitespace-nowrap shadow-sm">All Documents (14)</button>
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm whitespace-nowrap transition-colors">Lab &amp; Ultrasound (6)</button>
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm whitespace-nowrap transition-colors">Doctor Invoices &amp; Rx (5)</button>
+<button class="px-space-md py-1.5 rounded-lg bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm whitespace-nowrap transition-colors">Govt &amp; ID Proofs (3)</button>
+</div>
+<!-- Upload Dropzone / Quick Scanner -->
+<div class="bg-surface-container-low/70 rounded-xl p-space-md flex flex-col items-center justify-center text-center gap-space-xs hover:bg-surface-container-low transition-colors group cursor-pointer">
+<div class="w-12 h-12 rounded-full bg-surface-container-lowest shadow-sm flex items-center justify-center text-primary group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-2xl">document_scanner</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<p class="font-label-lg text-label-lg text-on-surface font-semibold">
+                Drag &amp; drop clinical ultrasound scans, prescriptions, or GST hospital bills
+              </p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Auto-categorized via Clinical OCR • DICOM, PDF, JPG supported up to 50MB
+              </p>
+</div>
+<div class="flex flex-wrap items-center gap-space-xs mt-space-xs">
+<button class="inline-flex items-center gap-1 px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-primary font-label-sm text-label-sm shadow-sm hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-sm">phone_android</span>
+                Scan via Mobile Camera
+              </button>
+<button class="inline-flex items-center gap-1 px-space-md py-1.5 rounded-lg bg-surface-container-lowest text-on-surface font-label-sm text-label-sm shadow-sm hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-sm">link</span>
+                Pull from DigiLocker / ABHA
+              </button>
+</div>
+</div>
+<!-- Document List Items -->
+<div class="flex flex-col gap-space-sm">
+<!-- Vault Item 1 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest hover:bg-surface-container-low transition-all shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined">image</span>
+</div>
+<div class="flex flex-col gap-1 min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h3 class="font-label-lg text-label-lg text-on-surface font-bold truncate">Level II Anomaly Scan &amp; Fetal Biometry</h3>
+<span class="px-space-xs py-0.5 rounded text-label-sm font-label-sm bg-tertiary-fixed/40 text-tertiary font-semibold">Doctor Verified</span>
+<span class="px-space-xs py-0.5 rounded text-label-sm font-label-sm bg-surface-container text-primary font-semibold">ABDM Linked</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm flex-wrap">
+<span>Cloudnine Hospital, Bengaluru</span>
+<span>•</span>
+<span>Oct 14, 2024</span>
+<span>•</span>
+<span class="font-bold text-on-surface">₹3,800 (Billed)</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs self-end sm:self-center shrink-0">
+<button class="p-2 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors cursor-pointer" title="View Document">
+<span class="material-symbols-outlined text-lg">visibility</span>
+</button>
+<button class="p-2 rounded-lg bg-surface-container text-primary hover:bg-surface-container-high transition-colors cursor-pointer" title="Download DICOM / PDF">
+<span class="material-symbols-outlined text-lg">download</span>
+</button>
+</div>
+</div>
+<!-- Vault Item 2 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest hover:bg-surface-container-low transition-all shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-low flex items-center justify-center text-secondary-container shrink-0">
+<span class="material-symbols-outlined">biotech</span>
+</div>
+<div class="flex flex-col gap-1 min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h3 class="font-label-lg text-label-lg text-on-surface font-bold truncate">Gestational Glucose Tolerance Test (GTT) &amp; CBC</h3>
+<span class="px-space-xs py-0.5 rounded text-label-sm font-label-sm bg-surface-container-low text-tertiary-container font-semibold">Verified NABL</span>
+<span class="px-space-xs py-0.5 rounded text-label-sm font-label-sm bg-surface-container-low text-on-surface-variant">Normal Glycemic</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm flex-wrap">
+<span>Dr. Lal PathLabs</span>
+<span>•</span>
+<span>Sep 28, 2024</span>
+<span>•</span>
+<span class="font-bold text-on-surface">₹1,650 (Paid via UPI)</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs self-end sm:self-center shrink-0">
+<button class="p-2 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors cursor-pointer" title="View Document">
+<span class="material-symbols-outlined text-lg">visibility</span>
+</button>
+<button class="p-2 rounded-lg bg-surface-container text-primary hover:bg-surface-container-high transition-colors cursor-pointer" title="Download Lab Report">
+<span class="material-symbols-outlined text-lg">download</span>
+</button>
+</div>
+</div>
+<!-- Vault Item 3 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest hover:bg-surface-container-low transition-all shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-secondary-fixed flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined">strikethrough_s</span>
+</div>
+<div class="flex flex-col gap-1 min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h3 class="font-label-lg text-label-lg text-on-surface font-bold truncate">NIPT &amp; Fetal Genetic Aneuploidy Panel</h3>
+<span class="px-space-xs py-0.5 rounded text-label-sm font-label-sm bg-tertiary-fixed/30 text-tertiary font-semibold">Low Risk Flag</span>
+<span class="px-space-xs py-0.5 rounded text-label-sm font-label-sm bg-surface-container text-primary font-semibold">Insurance Reimbursable</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm flex-wrap">
+<span>MedGenome Labs</span>
+<span>•</span>
+<span>Aug 15, 2024</span>
+<span>•</span>
+<span class="font-bold text-on-surface">₹14,500</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs self-end sm:self-center shrink-0">
+<button class="p-2 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors cursor-pointer" title="View Document">
+<span class="material-symbols-outlined text-lg">visibility</span>
+</button>
+<button class="p-2 rounded-lg bg-surface-container text-primary hover:bg-surface-container-high transition-colors cursor-pointer" title="Download Report">
+<span class="material-symbols-outlined text-lg">download</span>
+</button>
+</div>
+</div>
+<!-- Vault Item 4 -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest hover:bg-surface-container-low transition-all shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-space-md">
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined">local_hospital</span>
+</div>
+<div class="flex flex-col gap-1 min-w-0">
+<div class="flex items-center gap-space-xs flex-wrap">
+<h3 class="font-label-lg text-label-lg text-on-surface font-bold truncate">Hospital Delivery Admission Advance Deposit</h3>
+<span class="px-space-xs py-0.5 rounded text-label-sm font-label-sm bg-surface-container-low text-primary font-semibold">TPA Pre-Auth Locked</span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm flex-wrap">
+<span>Fortis La Femme, Greater Kailash</span>
+<span>•</span>
+<span>Nov 02, 2024</span>
+<span>•</span>
+<span class="font-bold text-on-surface">₹25,000 (Adjustable)</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs self-end sm:self-center shrink-0">
+<button class="p-2 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high transition-colors cursor-pointer" title="View Document">
+<span class="material-symbols-outlined text-lg">visibility</span>
+</button>
+<button class="p-2 rounded-lg bg-surface-container text-primary hover:bg-surface-container-high transition-colors cursor-pointer" title="Download Voucher">
+<span class="material-symbols-outlined text-lg">download</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Recent Out-of-Pocket Pregnancy Expenses Table -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Maternity Out-of-Pocket Ledger (INR ₹)</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Real-time settlement view against active Star Health policy and GST deductions</p>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Currency: <strong>INR (₹)</strong></span>
+</div>
+</div>
+<!-- Table Wrapper -->
+<div class="overflow-x-auto">
+<table class="w-full text-left font-body-sm text-body-sm">
+<thead>
+<tr class="bg-surface-container-low text-on-surface-variant font-label-md text-label-md">
+<th class="p-space-sm rounded-l-lg">Clinical Item / Service</th>
+<th class="p-space-sm">Trimester / Date</th>
+<th class="p-space-sm">Provider</th>
+<th class="p-space-sm">Billing Status</th>
+<th class="p-space-sm text-right rounded-r-lg">Out-of-Pocket</th>
+</tr>
+</thead>
+<tbody class="text-on-surface">
+<!-- Row 1 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-sm font-semibold">
+                    Routine High-Risk OB Consultation &amp; Fetal Doppler
+                    <span class="block text-label-sm font-label-sm text-on-surface-variant">Dr. Vandana Rao (MS, OB-GYN)</span>
+</td>
+<td class="p-space-sm whitespace-nowrap text-on-surface-variant">Week 28 (Oct 20)</td>
+<td class="p-space-sm">Apollo Cradle</td>
+<td class="p-space-sm">
+<span class="px-space-sm py-0.5 rounded-full bg-tertiary-fixed/30 text-tertiary font-label-sm text-label-sm font-semibold">100% Cashless Covered</span>
+</td>
+<td class="p-space-sm text-right font-bold text-tertiary">₹0</td>
+</tr>
+<!-- Row 2 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-sm font-semibold">
+                    Comprehensive Iron Infusion &amp; Venofer Setup
+                    <span class="block text-label-sm font-label-sm text-on-surface-variant">Severe 2nd-Trimester Gestational Anemia</span>
+</td>
+<td class="p-space-sm whitespace-nowrap text-on-surface-variant">Week 26 (Oct 02)</td>
+<td class="p-space-sm">Max Healthcare</td>
+<td class="p-space-sm">
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm font-semibold">Covered (10% Co-Pay)</span>
+</td>
+<td class="p-space-sm text-right font-bold text-on-surface">₹450 <span class="block text-label-sm font-label-sm text-on-surface-variant line-through">₹4,500</span></td>
+</tr>
+<!-- Row 3 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-sm font-semibold">
+                    Continuous Glucose Telemetry Sensors (CGM 2x)
+                    <span class="block text-label-sm font-label-sm text-on-surface-variant">Prescribed Gestational Diabetes Monitoring</span>
+</td>
+<td class="p-space-sm whitespace-nowrap text-on-surface-variant">Week 24 (Sep 14)</td>
+<td class="p-space-sm">Materna Care Rx</td>
+<td class="p-space-sm">
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">FSA / Direct Self-Pay</span>
+</td>
+<td class="p-space-sm text-right font-bold text-on-surface">₹3,200</td>
+</tr>
+<!-- Row 4 -->
+<tr class="hover:bg-surface-container-low/50 transition-colors">
+<td class="p-space-sm font-semibold">
+                    Target Anomaly Scan &amp; Doppler Echo
+                    <span class="block text-label-sm font-label-sm text-on-surface-variant">Fetal Echocardiogram &amp; Cervical Length</span>
+</td>
+<td class="p-space-sm whitespace-nowrap text-on-surface-variant">Week 20 (Aug 18)</td>
+<td class="p-space-sm">Manipal Hospital</td>
+<td class="p-space-sm">
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm font-semibold">OPD Deductible Met</span>
+</td>
+<td class="p-space-sm text-right font-bold text-on-surface">₹800 <span class="block text-label-sm font-label-sm text-on-surface-variant line-through">₹4,800</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Bottom Expense Actions -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm pt-space-xs">
+<button class="inline-flex items-center gap-1 font-label-lg text-label-lg text-primary hover:text-primary-container font-semibold cursor-pointer">
+<span class="material-symbols-outlined text-lg">add_circle</span>
+              + Add Custom Expense / Hospital Bill
+            </button>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-base">download_for_offline</span>
+              Download Consolidated Expense Sheet for Section 80D Tax Exemption
+            </a>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN: Govt Schemes Tracker & Insurance Portfolio (5 cols) -->
+<div class="lg:col-span-5 flex flex-col gap-space-lg">
+<!-- Indian Government Maternity Schemes Widget -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col gap-space-md relative overflow-hidden">
+<!-- Tricolor Aesthetic Accent Strip -->
+<div class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-[#FF9933] via-[#ffffff] to-[#138808]"></div>
+<div class="flex items-center justify-between gap-space-xs pt-1">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-lg">flag</span>
+</div>
+<div class="flex flex-col">
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-semibold leading-tight">Indian Maternity Schemes</h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Central &amp; State Welfare Direct Benefit Transfers</span>
+</div>
+</div>
+<span class="px-space-xs py-0.5 rounded text-label-sm font-label-sm bg-tertiary-fixed/40 text-tertiary font-bold">Verified Portal</span>
+</div>
+<!-- Interactive Calculator Mini-Widget -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col gap-space-xs">
+<span class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">calculate</span> Instant Eligibility Estimator
+            </span>
+<div class="grid grid-cols-2 gap-space-xs pt-1">
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant block mb-1">Select State</label>
+<select class="w-full bg-surface-container-lowest text-on-surface font-body-sm text-body-sm p-2 rounded-lg shadow-sm" id="calc-state">
+<option selected="" value="KA">Karnataka</option>
+<option value="MH">Maharashtra</option>
+<option value="DL">Delhi NCR</option>
+<option value="UP">Uttar Pradesh</option>
+<option value="TN">Tamil Nadu</option>
+</select>
+</div>
+<div>
+<label class="font-label-sm text-label-sm text-on-surface-variant block mb-1">Child Order</label>
+<select class="w-full bg-surface-container-lowest text-on-surface font-body-sm text-body-sm p-2 rounded-lg shadow-sm" id="calc-child">
+<option selected="" value="1">1st Child</option>
+<option value="2_girl">2nd Child (Girl Child)</option>
+<option value="2_boy">2nd Child (Boy Child)</option>
+</select>
+</div>
+</div>
+<div class="mt-space-xs pt-space-xs flex items-center justify-between text-on-surface">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Estimated Combined DBT:</span>
+<span class="font-headline-sm text-headline-sm text-tertiary-container font-bold" id="calc-result">₹11,000</span>
+</div>
+</div>
+<!-- Scheme Cards -->
+<div class="flex flex-col gap-space-sm">
+<!-- Scheme 1: PMMVY -->
+<div class="p-space-md rounded-xl bg-surface-container-low/60 flex flex-col gap-space-xs">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="flex flex-col">
+<h3 class="font-label-lg text-label-lg text-on-surface font-bold">Pradhan Mantri Matru Vandana Yojana (PMMVY)</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ministry of Women &amp; Child Development</span>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-tertiary-fixed/40 text-tertiary font-label-sm text-label-sm font-bold whitespace-nowrap">
+                  94% High Probability
+                </span>
+</div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">₹5,000 – ₹6,000</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Direct Bank Transfer (DBT)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                MCP Card registered, 1st ANC done at 12 weeks. Phase 1 (₹3,000) verified and credited to Canara Bank A/c (**3911).
+              </p>
+<div class="pt-space-xs flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-tertiary-container font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">check_circle</span> Phase 1 Disbursed
+                </span>
+<button class="px-space-md py-1 rounded-lg bg-surface-container text-primary font-label-sm text-label-sm font-bold hover:bg-surface-container-high transition-colors">
+                  View Form 1A Status
+                </button>
+</div>
+</div>
+<!-- Scheme 2: JSY -->
+<div class="p-space-md rounded-xl bg-surface-container-low/60 flex flex-col gap-space-xs">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="flex flex-col">
+<h3 class="font-label-lg text-label-lg text-on-surface font-bold">Janani Suraksha Yojana (JSY) - NHM</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">National Health Mission</span>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-surface-container text-primary font-label-sm text-label-sm font-bold whitespace-nowrap">
+                  78% Moderate Probability
+                </span>
+</div>
+<div class="flex items-baseline gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary font-bold">₹1,000 – ₹1,400</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Cash Assistance for Institutional Birth</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Applicable for accredited public and empanelled private maternity centers. Linked with ASHA attendant incentive.
+              </p>
+<div class="pt-space-xs flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Empanelled Facility Check</span>
+<button class="px-space-md py-1 rounded-lg bg-surface-container text-primary font-label-sm text-label-sm font-bold hover:bg-surface-container-high transition-colors">
+                  Check Hospital Tie-up
+                </button>
+</div>
+</div>
+<!-- Scheme 3: PMSMA -->
+<div class="p-space-md rounded-xl bg-surface-container-low/60 flex flex-col gap-space-xs">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="flex flex-col">
+<h3 class="font-label-lg text-label-lg text-on-surface font-bold">PMSMA (Surakshit Matritva Abhiyan)</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Free Checkups on 9th of Every Month</span>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-tertiary-fixed text-tertiary-container font-label-sm text-label-sm font-bold whitespace-nowrap">
+                  100% Guaranteed
+                </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Universal access for all pregnant mothers in 2nd &amp; 3rd Trimester. Free ultrasound, glucose &amp; hemoglobin tests with OB/GYN specialist.
+              </p>
+<div class="pt-space-xs flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary font-semibold">Next Camp: Nov 9th, 2024</span>
+<button class="px-space-md py-1 rounded-lg bg-surface-container text-primary font-label-sm text-label-sm font-bold hover:bg-surface-container-high transition-colors">
+                  Locate PMSMA Center
+                </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Indian Maternity Insurance & Cashless TPA Network -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-lg">shield_with_heart</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Maternity Health Insurance</h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Active Cashless TPA Network</span>
+</div>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-tertiary-fixed/30 text-tertiary font-label-sm text-label-sm font-bold">Active Policy</span>
+</div>
+<!-- Primary Active Policy Card -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col gap-space-sm">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Star Health &amp; Allied Insurance</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Women Care / Young Star Gold</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Policy No: ST-MAT-992482-IN</span>
+</div>
+<div class="text-right">
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Sum Insured</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">₹10,00,000</span>
+</div>
+</div>
+<!-- Limits & Coverage Grid -->
+<div class="grid grid-cols-2 gap-space-xs pt-space-xs font-label-sm text-label-sm">
+<div class="bg-surface-container-lowest p-space-xs rounded-lg">
+<span class="text-on-surface-variant block">Normal Delivery Limit:</span>
+<span class="font-bold text-on-surface">₹1,00,000</span>
+</div>
+<div class="bg-surface-container-lowest p-space-xs rounded-lg">
+<span class="text-on-surface-variant block">C-Section Delivery Limit:</span>
+<span class="font-bold text-on-surface">₹1,50,000</span>
+</div>
+<div class="bg-surface-container-lowest p-space-xs rounded-lg">
+<span class="text-on-surface-variant block">Waiting Period Status:</span>
+<span class="font-bold text-tertiary-container">24/24 Mos (Completed)</span>
+</div>
+<div class="bg-surface-container-lowest p-space-xs rounded-lg">
+<span class="text-on-surface-variant block">Newborn Day 1 Cover:</span>
+<span class="font-bold text-on-surface">Included up to ₹2L</span>
+</div>
+</div>
+<!-- Active Cashless Pre-Auth Banner -->
+<div class="mt-space-xs p-space-sm rounded-lg bg-surface-container flex items-center justify-between text-on-surface">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-base">token</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Pre-Auth Token Active</span>
+<span class="font-label-md text-label-md font-mono font-bold text-primary">#MAT-IN-2024-8849</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary-container font-semibold">Ready for Admission</span>
+</div>
+</div>
+<!-- Supported Insurers & TPAs Chip Cloud -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Empanelled Indian Insurers &amp; Third-Party Administrators</span>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-space-sm py-1 rounded-md bg-surface-container font-label-sm text-label-sm text-on-surface">HDFC ERGO</span>
+<span class="px-space-sm py-1 rounded-md bg-surface-container font-label-sm text-label-sm text-on-surface">Care Health (JOY)</span>
+<span class="px-space-sm py-1 rounded-md bg-surface-container font-label-sm text-label-sm text-on-surface">Niva Bupa</span>
+<span class="px-space-sm py-1 rounded-md bg-surface-container font-label-sm text-label-sm text-on-surface">ICICI Lombard</span>
+<span class="px-space-sm py-1 rounded-md bg-surface-container font-label-sm text-label-sm text-on-surface">Medi Assist TPA</span>
+<span class="px-space-sm py-1 rounded-md bg-surface-container font-label-sm text-label-sm text-on-surface">Vidal Health TPA</span>
+</div>
+</div>
+<!-- Insurance Action CTAs -->
+<div class="flex flex-col sm:flex-row items-center gap-space-xs pt-space-xs">
+<button class="w-full sm:w-auto flex-1 px-space-md py-2 rounded-lg bg-primary text-on-primary font-label-md text-label-md font-semibold text-center hover:bg-primary-container transition-colors cursor-pointer shadow-sm">
+              Submit Cashless Pre-Auth Request
+            </button>
+<button class="w-full sm:w-auto px-space-md py-2 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md font-semibold text-center hover:bg-surface-container-high transition-colors cursor-pointer">
+              Form 80D Certificate
+            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Trust, Compliance & Indian Regulatory Strip -->
+<section class="w-full py-space-md bg-surface-container-low mb-space-xs">
+<div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin flex flex-col md:flex-row items-center justify-between gap-space-md text-center md:text-left">
+<div class="flex items-center gap-space-md">
+<div class="w-10 h-10 rounded-full bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm shrink-0">
+<span class="material-symbols-outlined text-xl">gavel</span>
+</div>
+<div class="flex flex-col text-on-surface">
+<span class="font-label-lg text-label-lg font-bold">ABDM (Ayushman Bharat Digital Mission) M2 &amp; M3 Certified Vault</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Compliant with Digital Personal Data Protection (DPDP) Act 2023 &amp; ISO 27701 Privacy Information Management.</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs shrink-0 flex-wrap justify-center">
+<span class="px-space-sm py-1 rounded bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm shadow-sm font-semibold">256-bit AES Vault</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm shadow-sm font-semibold">NHA Certified</span>
+<span class="px-space-sm py-1 rounded bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm shadow-sm font-semibold">Zero-Knowledge Proofs</span>
+</div>
+</div>
+</section>
+<!-- Interactive Client-side Script for Estimator & Buttons -->
+<script>
+    (function() {
+      const stateSelect = document.getElementById('calc-state');
+      const childSelect = document.getElementById('calc-child');
+      const resultEl = document.getElementById('calc-result');
+
+      function updateCalculation() {
+        if (!stateSelect || !childSelect || !resultEl) return;
+        const state = stateSelect.value;
+        const child = childSelect.value;
+        
+        let basePMMVY = 5000;
+        if (child === '2_girl') {
+          basePMMVY = 6000;
+        } else if (child === '2_boy') {
+          basePMMVY = 0; // PMMVY 2nd child grant only applies for girl child
+        }
+
+        let jsy = 1000; // Urban/Standard
+        if (state === 'UP' || state === 'MH') {
+          jsy = 1400; // Low Performing States or specific regional tier
+        }
+
+        let stateBonus = 0;
+        if (state === 'TN') {
+          stateBonus = 12000; // Muthulakshmi Reddy scheme incentive
+        } else if (state === 'KA') {
+          stateBonus = 5000; // Mathru Poorna / Mathru Vandana top-up
+        }
+
+        const total = basePMMVY + jsy + stateBonus;
+        resultEl.textContent = '₹' + total.toLocaleString('en-IN');
+      }
+
+      if (stateSelect && childSelect) {
+        stateSelect.addEventListener('change', updateCalculation);
+        childSelect.addEventListener('change', updateCalculation);
+      }
+
+      const uploadBtn = document.getElementById('btn-upload-record');
+      if (uploadBtn) {
+        uploadBtn.addEventListener('click', function() {
+          const input = document.createElement('input');
+          input.type = 'file';
+          input.accept = '.pdf,.dicom,.jpg,.png';
+          input.click();
+        });
+      }
+
+      const syncBtn = document.getElementById('btn-sync-abha');
+      if (syncBtn) {
+        syncBtn.addEventListener('click', function() {
+          const orig = syncBtn.innerHTML;
+          syncBtn.innerHTML = '<span class="material-symbols-outlined text-lg animate-spin">autorenew</span> Syncing ABDM...';
+          setTimeout(function() {
+            syncBtn.innerHTML = '<span class="material-symbols-outlined text-lg text-tertiary-container">done</span> ABHA Synced';
+            setTimeout(function() {
+              syncBtn.innerHTML = orig;
+            }, 3000);
+          }, 1200);
+        });
+      }
+
+      const exportBtn = document.getElementById('btn-export-pdf');
+      if (exportBtn) {
+        exportBtn.addEventListener('click', function() {
+          alert('Generating consolidated Section 80D & Maternity Expense audit ledger (PDF)...');
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_8px_rgba(76,29,149,0.03)] mt-space-xl"><div class="max-w-7xl mx-auto px-margin-mobile lg:px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-4 gap-gutter mb-space-xl"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="Materna Logo" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Usd6JT6NGBFbLoYEyRuEt5qn9s57qi1BlDR9SRKgWX9Y_fIsNKb-XlpM8OdPT5TqK6qdPhD5S_dkELYxDL_88YCMCyH7CbLYE1_IIZEsrAzfY47XWt3RqwGo7r1Vhyzt4uq2a9rmMUg9lR-qfNsSGz-68f2qMteNg3C-6WOxa2SPvhvriJInbyV4aby_wmr_PbhG1ZMX1Ghd8jGWhXRhiwUA7r1AqjRRRq7-GWiSa3-J5e_0M5wxrZ5Q"/><span class="font-headline-sm text-headline-sm text-primary">Materna</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Zero-delay clinical decision support and maternal mortality risk reduction infrastructure for mothers and obstetric teams.</p><div class="flex items-center gap-space-xs text-tertiary-container font-label-sm text-label-sm mt-space-xs"><span class="material-symbols-outlined text-base">security</span><span>HIPAA Certified &amp; SOC2 Type II Aligned</span></div></div><div class="flex flex-col gap-space-xs"><h4 class="font-label-lg text-label-lg text-on-surface mb-space-xs">Clinical Emergency Network</h4><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-space-xs" href="#"><span class="material-symbols-outlined text-sm">phone_in_talk</span>24/7 Maternal SOS Hotline</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-space-xs" href="#"><span class="material-symbols-outlined text-sm">local_hospital</span>Obstetric ICU Dispatch</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-space-xs" href="#"><span class="material-symbols-outlined text-sm">bloodtype</span>Emergency Blood Bank Locator</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-space-xs" href="#"><span class="material-symbols-outlined text-sm">medical_services</span>Hospital Bed Availabilities</a></div><div class="flex flex-col gap-space-xs"><h4 class="font-label-lg text-label-lg text-on-surface mb-space-xs">Care Operations &amp; Records</h4><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-space-xs" href="#"><span class="material-symbols-outlined text-sm">monitor_heart</span>Vitals &amp; Preeclampsia Watch</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-space-xs" href="#"><span class="material-symbols-outlined text-sm">folder_shared</span>Encrypted Records &amp; Vault</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-space-xs" href="#"><span class="material-symbols-outlined text-sm">receipt_long</span>Delivery Expense Estimator</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors flex items-center gap-space-xs" href="#"><span class="material-symbols-outlined text-sm">diversity_1</span>Midwife &amp; Attendant Roster</a></div><div class="flex flex-col gap-space-xs"><h4 class="font-label-lg text-label-lg text-on-surface mb-space-xs">Safety &amp; Compliance</h4><p class="font-body-sm text-body-sm text-on-surface-variant">Patient biometric telemetry is protected by clinical-grade cryptographic separation and audited under strict data privacy regulations.</p><div class="flex flex-wrap gap-space-xs mt-space-xs"><span class="px-space-sm py-space-xs rounded-full bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">HIPAA Ready</span><span class="px-space-sm py-space-xs rounded-full bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">256-Bit SSL</span><span class="px-space-sm py-space-xs rounded-full bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm">GDPR Health</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><p>© 2025 Materna Health Systems. All clinical algorithms peer-reviewed. For critical emergencies, always dial local emergency services immediately.</p><div class="flex items-center gap-space-md"><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a><a class="hover:text-primary transition-colors" href="#">HIPAA Disclosure</a><a class="hover:text-primary transition-colors" href="#">Terms of Clinical Care</a><a class="hover:text-primary transition-colors" href="#">Provider Portal</a></div></div></div></footer></body></html>
